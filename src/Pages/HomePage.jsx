@@ -7,7 +7,7 @@ const HomePage = ()=>{
         <Header/>
        <div className="m-5 flex flex-col gap-4">
         
-        <center className="bg-gray-200 p-5">
+        <center className="bg-gray-200 p-4">
         <img className="w-3/5" src="src\assets\familywellness.webp" alt="pic"/>
         </center>
 
