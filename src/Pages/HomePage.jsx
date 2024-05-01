@@ -1,5 +1,8 @@
+import myImage from '../assets/familywellness.webp';
+
 import Footer from "../Component/Footer";
 import Header from "../Component/Header"
+
 
 const HomePage = ()=>{
     return (
@@ -8,7 +11,7 @@ const HomePage = ()=>{
        <div className="m-5 flex flex-col gap-4">
         
         <center className="bg-gray-200 p-4">
-        <img className="w-3/5" src="src\assets\familywellness.webp" alt="pic"/>
+        <img className="w-3/5" src={myImage} alt="pic"/>
         </center>
 
         <center className=""> 
